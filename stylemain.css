@@ -9,11 +9,40 @@
     width: 48px;
     padding: 3px 0 0 16px;
 }
+.search-container{
+    width: calc(100%);
+}
+.search-box{
+    background-color: #eeeeee;
+    width: 100%;
+    height: 3rem;
+    border-radius: 3rem;
+    border: 0ch;
+}
+.icons-container{
+    padding: 3px 16px 0 0;
+}
+.icon-container{
+    width: 48px;
+}
 .icon{
     padding: 12px;
     width: 24px;
     border-radius: 100%;
 }
+.icon-list-container{
+    width: 24px;
+}
+.icon-list{
+    width: 24px;
+    border-radius: 100%;
+}
+.icon-list:hover{
+    background-color: rgba(224, 224, 224, 0.623);
+}
 .icon:hover{
     background-color: rgba(224, 224, 224, 0.623);
+}
+.icons-container{
+    width: 168px;
 }
