@@ -1,3 +1,11 @@
+.header{
+    position: sticky;
+    top: 0;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.header.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 .flex-box{
     background-color: rgb(255, 255, 255);
     height: 80px;
@@ -20,7 +28,7 @@
     border: 0ch;
 }
 .icons-container{
-    padding: 3px 16px 0 0;
+    padding: 0 16px 0 0;
 }
 .icon-container{
     width: 48px;

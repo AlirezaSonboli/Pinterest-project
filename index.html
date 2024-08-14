@@ -8,7 +8,7 @@
     <title>Pinterest</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="flex-box">
             <div class="logo-container">
                 <img class="icon" src="./images/pinterest.svg">
@@ -26,7 +26,24 @@
         </div>
 
     </header>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus illum nulla dolore qui at voluptatem, minus nisi ullam eos eius corrupti? Qui vel suscipit repudiandae reprehenderit sit aut adipisci optio.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus illum nulla dolore qui at voluptatem, minus nisi ullam eos eius corrupti? Qui vel suscipit repudiandae reprehenderit sit aut adipisci optio.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus illum nulla dolore qui at voluptatem, minus nisi ullam eos eius corrupti? Qui vel suscipit repudiandae reprehenderit sit aut adipisci optio.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus illum nulla dolore qui at voluptatem, minus nisi ullam eos eius corrupti? Qui vel suscipit repudiandae reprehenderit sit aut adipisci optio.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus illum nulla dolore qui at voluptatem, minus nisi ullam eos eius corrupti? Qui vel suscipit repudiandae reprehenderit sit aut adipisci optio.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus illum nulla dolore qui at voluptatem, minus nisi ullam eos eius corrupti? Qui vel suscipit repudiandae reprehenderit sit aut adipisci optio.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus illum nulla dolore qui at voluptatem, minus nisi ullam eos eius corrupti? Qui vel suscipit repudiandae reprehenderit sit aut adipisci optio.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus illum nulla dolore qui at voluptatem, minus nisi ullam eos eius corrupti? Qui vel suscipit repudiandae reprehenderit sit aut adipisci optio.</p>
 
-
+   <script>
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('header');
+            if (window.scrollY > 0) {
+                header.classList.add('shadow');
+            } else {
+                header.classList.remove('shadow');
+            }
+        });
+    </script>
 </body>
 </html>
