@@ -46,3 +46,31 @@
 .icons-container{
     width: 168px;
 }
+.container{
+    background-color: aquamarine;
+    max-width: 1444px;
+    width: 98%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.one-column{
+    display: flex;
+    gap: 10px;
+}
+.two-columns{
+    display: flex;
+    gap: 10px;
+}
+.four-columns{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.image img{
+    padding: 0 5px;
+    width: 95%;
+    border-radius: 1rem;
+
+
+
+}
