@@ -74,7 +74,7 @@
     scale: 1.03;
     
 }
-@media (max-width:350px) {
+@media (max-width:500px) {
     .two-columns{
         display: block;
     }
