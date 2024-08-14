@@ -1,0 +1,19 @@
+.flex-box{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo-container{
+    width: 48px;
+    padding: 3px 0 0 16px;
+}
+.icon{
+    padding: 12px;
+    width: 24px;
+    border-radius: 100%;
+}
+.icon:hover{
+    background-color: rgba(224, 224, 224, 0.623);
+}
