@@ -72,14 +72,14 @@
 }
 .image:hover{
     scale: 1.03;
-    
+
 }
-@media (max-width:768px) {
+@media (max-width:500px) {
     .two-columns{
         display: block;
     }
 }
-@media (max-width:400px) {
+@media (max-width:250px) {
     .one-column{
         display: block;
     }
