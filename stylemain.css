@@ -3,6 +3,42 @@ header{
     top:0%;
     z-index: 1000;
 }
+
+.icon-list-container {
+    position: relative;
+}
+
+.dropdown-list {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+}
+/* .icon-list-container:hover .dropdown-list {
+    display: block;
+} */
+
+.dropdown-list li {
+    padding: 8px 16px;
+}
+
+.dropdown-list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-list li:hover {
+    background-color: #f1f1f1;
+}
+
+
 .flex-box{
     background-color: rgb(255, 255, 255);
     height: 80px;
@@ -70,13 +106,45 @@ header{
     flex-direction: column;
     gap: 10px;
 }
+.image{
+    transition: transform 0.2s;
+}
+.clicked {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 100vh;
+    z-index: 1100;
+    /* background-color: rgba(0, 0, 0, 0.8); Optional: Adds a background overlay */
+}
+
+.clicked img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* .clicked{
+    display: block;
+    position: fixed;
+    width: 80vh;
+    top: 4rem;
+    left:auto;
+    justify-self: center;
+    z-index: 1100;
+
+} */
 .image img{
     padding: 0 5px;
     width: 95%;
     border-radius: 1rem;
 }
 .image:hover{
-    scale: 1.03;
+    transform: scale(1.03);
 
 }
 @media (max-width:500px) {
