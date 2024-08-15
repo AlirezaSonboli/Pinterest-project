@@ -17,14 +17,14 @@ const images = document.querySelectorAll('.image');
 
 images.forEach(image => {
     image.addEventListener('click', function() {
-        image.classList.add("clicked");
-    });
-});
-
-document.addEventListener('click', function(event) {
-    images.forEach(image => {
-        if (!image.contains(event.target)) {
-            image.classList.remove("clicked");
+        // Check if the clicked image already has the 'clicked' class
+        if (image.classList.contains('clicked')) {
+            image.classList.remove('clicked');
+        } else {
+            // Remove the 'clicked' class from all images
+            images.forEach(img => img.classList.remove('clicked'));
+            // Add the 'clicked' class to the clicked image
+            image.classList.add('clicked');
         }
     });
 });
